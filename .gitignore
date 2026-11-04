@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+*/node_modules/
+.npm
+package-lock.json.log
+
+# Flutter / Dart
+farm/.dart_tool/
+farm/.flutter-plugins
+farm/.flutter-plugins-dependencies
+farm/.pub-cache/
+farm/.pub/
+farm/build/
+**/doc/api/
+.dart_tool/
+.pub-cache/
+.pub/
+build/
+
+# Android build outputs & Gradle
+farm/android/.gradle/
+farm/android/app/build/
+farm/android/local.properties
+.gradle/
+local.properties
+*.apk
+*.aab
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# IDE & Editor files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.git_backup/

@@ -1,0 +1,2 @@
+0 Ring Worm Disease Found Condition
+1 Normal Condition

@@ -1,0 +1,24 @@
+{
+  "name": "smart-farm-fullstack",
+  "version": "1.0.0",
+  "description": "Smart Farm fullstack application with Express backend and Flutter mobile/web frontend",
+  "main": "runner/run.js",
+  "scripts": {
+    "start": "node runner/run.js",
+    "dev": "node runner/run.js",
+    "dev:windows": "node runner/run.js --target=windows",
+    "dev:chrome": "node runner/run.js --target=chrome",
+    "dev:edge": "node runner/run.js --target=edge",
+    "dev:android": "node runner/run.js --target=android",
+    "backend": "cd Smart_Farm_Backend && npm run dev",
+    "frontend": "cd farm && flutter run -d chrome"
+  },
+  "keywords": [
+    "smart-farm",
+    "flutter",
+    "nodejs",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC"
+}
